@@ -208,18 +208,19 @@ prepare_attributes <- function() {
   f <- tibble(venue_id = needed) %>% left_join(f, by = "venue_id")
   roof <- tolower(trimws(f$roof_type))
   surface <- tolower(trimws(f$surface_type))
-  invalid <- is.na(roof) | !(roof %in% c("open", "dome", "retractable")) |
+  invalid <- is.na(roof) | !(roof %in% c("open", "dome", "retractable", "canopy")) |
     is.na(surface) | !(surface %in% c("grass", "turf")) |
     !is.finite(f$altitude_m) | is.na(f$source_url) | !nzchar(f$source_url)
   if (any(invalid)) {
     write_csv(f[invalid, ], file.path(OUTPUT, "stadium_features_missing_or_invalid.csv"))
     warning("Stadium metadata incomplete/invalid. Skipping M3b, M3c, M3. ",
-            "Fill roof_type=open/dome/retractable, surface_type=grass/turf, ",
+            "Fill roof_type=open/dome/retractable/canopy, surface_type=grass/turf, ",
             "altitude_m and source_url for EVERY venue.")
     return(NULL)
   }
   f$roof_dome <- as.integer(roof == "dome")
   f$roof_retractable <- as.integer(roof == "retractable")
+  f$roof_canopy <- as.integer(roof == "canopy")
   f$turf <- as.integer(surface == "turf")
   f
 }
@@ -228,9 +229,17 @@ venue_train_levels <- sort(unique(train$venue_id[train$home_flag == 1]))
 franchise_levels <- sort(unique(c(train$home_team, train$away_team)))
 S <- length(unique(train$season))
 
-attr_columns <- c("roof_dome", "roof_retractable", "turf", "altitude_m")
+attr_columns <- c("roof_dome", "roof_retractable", "roof_canopy", "turf", "altitude_m")
 if (!is.null(attr_data)) {
   attr_train <- attr_data[match(venue_train_levels, attr_data$venue_id), ]
+  train_attribute_sds <- vapply(attr_train[attr_columns], sd, numeric(1))
+  not_estimable <- !is.finite(train_attribute_sds) | train_attribute_sds == 0
+  if (any(not_estimable)) {
+    message('Dropping attributes with no variation in 2004-2017: ',
+            paste(names(train_attribute_sds)[not_estimable], collapse = ', '))
+    attr_columns <- attr_columns[!not_estimable]
+  }
+  if (!length(attr_columns)) stop('No varying stadium attributes in training data')
   z_means <- vapply(attr_train[attr_columns], mean, numeric(1))
   z_sds <- vapply(attr_train[attr_columns], sd, numeric(1))
   z_sds[!is.finite(z_sds) | z_sds == 0] <- 1

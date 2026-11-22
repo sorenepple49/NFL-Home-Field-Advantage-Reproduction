@@ -1,0 +1,7 @@
+stadium_id,stadium_name,previous_model_roof_type,corrected_roof_type,reference_url,interpretation
+ATL97,Mercedes-Benz Stadium,open,retractable,https://www.mercedesbenzstadium.com/news/mercedes-benz-stadium-officials-announce-sundays-falcons-vs-packers-game-will-be-teams-first-open-air-game-since-1991-in-atlanta-weather-permitting,Retractable roof architecture; game-day open/closed status not observed
+DAL00,AT&T Stadium,open,retractable,https://static.www.nfl.com/league/apps/league-site/media-guides/2025/DAL.pdf,Retractable roof architecture; game-day open/closed status not observed
+HOU00,Reliant / NRG Stadium,open,retractable,https://www.nrgpark.com/reliant-stadium/,Retractable roof architecture; game-day open/closed status not observed
+IND00,Lucas Oil Stadium,open,retractable,https://www.lucasoilstadium.com/tours-stadium-info/background-history/,Retractable roof architecture; game-day open/closed status not observed
+PHO00,State Farm Stadium,open,retractable,https://www.statefarmstadium.com/stadium-info/about,Retractable roof architecture; game-day open/closed status not observed
+LAX01,SoFi Stadium,dome,canopy,https://www.hksinc.com/what-we-do/projects/sofi-stadium/,Fixed open-sided canopy; not a sealed dome

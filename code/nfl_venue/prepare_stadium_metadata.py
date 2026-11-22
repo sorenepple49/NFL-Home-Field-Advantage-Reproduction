@@ -111,7 +111,17 @@ def make_matches(games, stadiums, max_km=5, ambiguity_km=0.25):
                 eligible = stadiums.loc[(stadiums.first_dt <= g.game_date) &
                                         (stadiums.last_dt >= g.game_date)].copy()
                 if len(eligible):
-                    eligible['match_km'] = haversine_km(g.lat_home, g.lng_home,
+                    game_lon = float(g.lng_home)
+                    coord_note = ''
+                    # The source NFL file miscoded ordinary Saints home longitude.
+                    # Keep the unusual 2005 Hurricane Katrina schedule untouched.
+                    if (g.home_team == 'New Orleans Saints'
+                            and int(g.season) != 2005
+                            and abs(float(g.lat_home) - 29.950833) < 0.01
+                            and abs(game_lon + 90.811111) < 0.01):
+                        game_lon = -90.081111
+                        coord_note = 'Source Saints longitude corrected for matching; verify venue history'
+                    eligible['match_km'] = haversine_km(g.lat_home, game_lon,
                                                        eligible.lat.values, eligible.lon.values)
                     eligible = eligible.loc[eligible.match_km <= max_km].sort_values('match_km')
                     if len(eligible):
@@ -122,7 +132,7 @@ def make_matches(games, stadiums, max_km=5, ambiguity_km=0.25):
                                          match_km=round(float(best.match_km),3),
                                          second_candidate=';'.join(close.stadium_id.iloc[1:].astype(str)))
                         candidate['match_status'] = 'ambiguous' if len(close) > 1 else 'matched'
-                        candidate['reviewer_note'] = KNOWN_REVIEW_FLAGS.get(str(best.stadium_id),'')
+                        candidate['reviewer_note'] = '; '.join(filter(None, [KNOWN_REVIEW_FLAGS.get(str(best.stadium_id), ''), coord_note]))
         rows.append({**base,**candidate})
     return pd.DataFrame(rows)
 
@@ -134,6 +144,14 @@ def preliminary_features(matches, stadiums):
     roof_map = {'outdoors':'open', 'dome':'dome', 'retractable':'retractable'}
     surf_map = {'grass':'grass', 'turf':'turf'}
     wanted['roof_type'] = wanted.roof_type.astype('string').str.lower().map(roof_map)
+    # Documented roof architecture corrections; original stadiums.csv is unchanged.
+    # "canopy" means a permanent canopy with open sides, NOT a sealed dome.
+    roof_overrides = {
+        'ATL97': 'retractable', 'DAL00': 'retractable',
+        'HOU00': 'retractable', 'IND00': 'retractable',
+        'PHO00': 'retractable', 'LAX01': 'canopy',
+    }
+    wanted['roof_type'] = wanted['stadium_id'].map(roof_overrides).fillna(wanted['roof_type'])
     wanted['surface_type'] = wanted.surface_type.astype('string').str.lower().map(surf_map)
     out = pd.DataFrame({
         'venue_id': wanted.stadium_id,
@@ -200,8 +218,8 @@ def finalize(args):
     required=['venue_id','roof_type','surface_type','altitude_m','source_url']
     if features[required].isna().any().any():
         raise ValueError('Verified metadata has missing required values')
-    if not features.roof_type.isin(['open','dome','retractable']).all():
-        raise ValueError('roof_type must be open/dome/retractable')
+    if not features.roof_type.isin(['open','dome','retractable','canopy']).all():
+        raise ValueError('roof_type must be open/dome/retractable/canopy')
     if not features.surface_type.isin(['grass','turf']).all():
         raise ValueError('surface_type must be grass/turf')
     if not pd.to_numeric(features.altitude_m,errors='coerce').notna().all():
