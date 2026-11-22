@@ -359,7 +359,7 @@ make_stan_data <- function(name, ridge_sd = 2) {
     franchise = as.integer(if (config[["use_franchise"]] == 1)
       match(train$home_team, f_levels) else rep(1L, nrow(train))),
     year = as.integer(train$season - 2003L),
-    first_venue_year = as.integer(first_year),
+    first_venue_year = array(as.integer(first_year), dim = c(n_v)),
     home_flag = as.integer(train$home_flag), y = as.numeric(train$margin),
     X = unname(X), Z = unname(z),
     use_trend = as.integer(config[["use_trend"]]),

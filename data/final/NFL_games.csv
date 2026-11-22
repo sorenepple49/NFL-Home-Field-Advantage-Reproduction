@@ -2358,7 +2358,7 @@ season,date,game_time_eastern,game_type,location,home_team,away_team,home_score,
 2010,12/19/2010,13:00:00,Regular Season,Home,Los Angeles Rams,Kansas City Chiefs,13,27,-90.188611,38.632778,-94.483889,39.048889,233.4679868,Sunday,TRUE
 2010,12/19/2010,16:05:00,Regular Season,Home,Seattle Seahawks,Atlanta Falcons,18,34,-122.3316,47.5952,-84.401,33.758,2181.080032,Sunday,TRUE
 2010,12/19/2010,13:00:00,Regular Season,Home,Cincinnati Bengals,Cleveland Browns,19,17,-84.516,39.095,-81.699444,41.506111,223.1654474,Sunday,TRUE
-2010,12/20/2010,20:30:00,Regular Season,Neutral,Minnesota Vikings,Chicago Bears,14,40,-93.258056,44.973889,-87.6167,41.8623,0,Monday,TRUE
+2010,12/20/2010,20:30:00,Regular Season,Home,Minnesota Vikings,Chicago Bears,14,40,-93.2245731,44.9765379,-87.6167,41.8623,,Monday,TRUE
 2010,12/23/2010,20:20:00,Regular Season,Home,Pittsburgh Steelers,Carolina Panthers,27,3,-80.015833,40.446667,-80.852778,35.225833,362.9644099,Thursday,TRUE
 2010,12/25/2010,19:30:00,Regular Season,Home,Arizona Cardinals,Dallas Cowboys,27,26,-112.263,33.528,-97.092778,32.747778,880.405398,Saturday,TRUE
 2010,12/26/2010,13:00:00,Regular Season,Home,Miami Dolphins,Detroit Lions,27,34,-80.238889,25.958056,-83.045556,42.34,1140.376586,Sunday,TRUE
