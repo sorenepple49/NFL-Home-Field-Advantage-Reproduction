@@ -1,0 +1,15 @@
+stadium_id,stadium_name,roof_type,surface_type,first_game_date,last_game_date,review_issue,date_range_outside_2004_2023
+ATL97,Mercedes-Benz Stadium,Outdoors,Turf,2017-09-17,2027-01-03,Roof reported Outdoors; verify retractable closure,False
+DAL00,AT&T Stadium,Outdoors,Turf,2009-09-20,2027-01-03,Roof reported Outdoors; verify retractable closure,False
+HOU00,Reliant Stadium,Outdoors,Turf,2002-09-08,2027-01-10,Roof reported Outdoors; verify retractable closure,False
+IND00,Lucas Oil Stadium,Outdoors,Turf,2008-09-07,2027-01-10,Roof reported Outdoors; verify retractable closure,False
+LAX01,SoFi Stadium,Dome,Turf,2020-09-13,2027-01-10,Roof reported Dome; confirm taxonomy for fixed canopy,False
+NYC00,Giants Stadium,Outdoors,Turf,1999-09-12,2010-01-03,Same coordinates as NYC01; use date-aware ID,False
+NYC01,MetLife Stadium,Outdoors,Turf,2010-09-12,2027-01-10,Same coordinates as NYC00; use date-aware ID,False
+PHO00,State Farm Stadium,Outdoors,Grass,2006-09-10,2027-01-10,Roof reported Outdoors; verify retractable closure,False
+SAO00,Arena Corinthians,Outdoors,Turf,2024-09-06,2024-09-06,,True
+MEL00,Melbourne Cricket Ground,Dome,Grass,2026-09-10,2026-09-10,,True
+RIO00,Maracana Stadium,Retractable,Grass,2026-09-27,2026-09-27,,True
+PAR00,Stade de France,Dome,Turf,2026-10-25,2026-10-25,,True
+MAD01,Bernabeu,Retractable,Turf,2026-11-08,2026-11-08,,True
+MUN01,FC Bayern Munich Stadium,Dome,Turf,2026-11-15,2026-11-15,,True
