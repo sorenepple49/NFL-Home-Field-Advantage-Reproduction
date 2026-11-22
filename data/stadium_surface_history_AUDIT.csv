@@ -1,8 +1,12 @@
-venue_id,start_date,end_date,surface_type,evidence_url,review_status,notes
-BAL00,2004-01-01,2015-12-31,turf,https://www.baltimoreravens.com/news/ravens-switching-to-natural-grass-at-m-t-bank-stadium-16430494,source_verified,Artificial surface from 2003 until natural grass conversion for 2016
-BAL00,2016-01-01,2023-12-31,grass,https://www.baltimoreravens.com/news/ravens-switching-to-natural-grass-at-m-t-bank-stadium-16430494,source_verified,Natural grass installed for 2016 NFL season
-BOS00,2004-01-01,2006-11-25,grass,https://www.patriots.com/news/patriots-installing-fieldturf-at-stadium-97771,source_verified,Grass before in-season switch in November 2006
-BOS00,2006-11-26,2023-12-31,turf,https://www.patriots.com/news/patriots-installing-fieldturf-at-stadium-97771,source_verified,FieldTurf installed before 2006-11-26 game
-CAR00,2004-01-01,2020-12-31,grass,https://www.panthers.com/news/new-playing-surface-bank-of-america-stadium,source_verified,Natural grass through the 2020 NFL season
-CAR00,2021-01-01,2023-12-31,turf,https://www.panthers.com/news/new-playing-surface-bank-of-america-stadium,source_verified,Artificial turf installed before the 2021 NFL season
-LON02,2019-01-01,2023-12-31,turf,https://www.tottenhamhotspurstadium.com/events/nfl-london-games,source_verified,NFL playing surface is artificial beneath retractable soccer grass pitch; neutral-site context
+"venue_id","start_date","end_date","surface_type","evidence_url","review_status","notes"
+"BAL00","2004-01-01","2015-12-31","turf","https://www.baltimoreravens.com/news/ravens-switching-to-natural-grass-at-m-t-bank-stadium-16430494","source_verified","Artificial surface from 2003 until natural grass conversion for 2016"
+"BAL00","2016-01-01","2024-01-31","grass","https://www.baltimoreravens.com/news/ravens-switching-to-natural-grass-at-m-t-bank-stadium-16430494","source_verified","Natural grass installed for 2016 NFL season"
+"BOS00","2004-01-01","2006-11-25","grass","https://www.patriots.com/news/patriots-installing-fieldturf-at-stadium-97771","source_verified","Grass before in-season switch in November 2006"
+"BOS00","2006-11-26","2024-01-31","turf","https://www.patriots.com/news/patriots-installing-fieldturf-at-stadium-97771","source_verified","FieldTurf installed before 2006-11-26 game"
+"CAR00","2004-01-01","2020-12-31","grass","https://www.panthers.com/news/new-playing-surface-bank-of-america-stadium","source_verified","Natural grass through the 2020 NFL season"
+"CAR00","2021-01-01","2024-01-31","turf","https://www.panthers.com/news/new-playing-surface-bank-of-america-stadium","source_verified","Artificial turf installed before the 2021 NFL season"
+"HOU00","2004-01-01","2015-09-26","grass","https://www.houstontexans.com/news/texans-to-play-on-artificial-turf-for-rest-of-2015-15899086","source_verified","NRG/Reliant Stadium used natural grass until September 2015; game-level cutoff is before 2015-09-27 switch"
+"HOU00","2015-09-27","2024-01-31","turf","https://www.houstontexans.com/news/texans-to-play-on-artificial-turf-for-rest-of-2015-15899086","source_verified","Houston Texans first home game on artificial turf was 2015-09-27; used artificial surface for remainder of 2015 and thereafter (recheck later-season continuity)"
+"LON02","2019-01-01","2023-12-31","turf","https://www.tottenhamhotspurstadium.com/events/nfl-london-games","source_verified","NFL playing surface is artificial beneath retractable soccer grass pitch; neutral-site context"
+"NAS00","2004-01-01","2022-12-31","grass","https://www.tennesseetitans.com/news/why-the-titans-are-switching-to-turf-at-nissan-stadium-starting-in-2023","source_verified","Nissan Stadium used natural grass until synthetic turf installation before the 2023 season"
+"NAS00","2023-01-01","2024-01-31","turf","https://www.tennesseetitans.com/news/why-the-titans-are-switching-to-turf-at-nissan-stadium-starting-in-2023","source_verified","Artificial turf was installed for the 2023 season; review early-2023 postseason games separately by date if present"
