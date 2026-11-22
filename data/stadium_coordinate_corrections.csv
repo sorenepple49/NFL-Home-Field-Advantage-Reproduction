@@ -1,0 +1,3 @@
+source_file,scope,field,original,matching_value,verification_reference
+data/stadiums.csv,stadium_id SDG00 Qualcomm Stadium,lon,117.119592,-117.119592,https://mapcarta.com/23116406
+data/final/NFL_games.csv,Saints usual-home games excluding season 2005 with suspect longitude,lng_home,-90.811111,-90.081111,https://www.findlatitudeandlongitude.com/l/Caesars%2BSuperdome%2C%2B1500%2C%2BSugar%2BBowl%2BDrive%2C%2BCentral%2BBusiness%2BDistrict%2C%2BNew%2BOrleans%2C%2BOrleans%2BParish%2C%2BLouisiana%2C%2B70112%2C%2BUSA/9729804/

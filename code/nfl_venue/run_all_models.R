@@ -18,6 +18,7 @@ set.seed(73097)
 DATA_PATH <- "data/final/NFL_games.csv"
 FEATURES_PATH <- "data/stadium_features.csv"
 STADIUM_MATCH_PATH <- "data/stadium_game_matches.csv"
+SURFACE_GAME_PATH <- "data/stadium_surface_by_game.csv"
 STAN_PATH <- "code/nfl_venue/stan/venue_model.stan"
 OUTPUT <- "results/venue_models"
 SEED <- 73097L
@@ -95,6 +96,31 @@ make_data <- function() {
   }
   if (anyDuplicated(df$game_key))
     stop("Game keys are not unique; resolve duplicated schedule rows")
+
+  # SURFACE_HISTORY_PATCH_V1: turf depends on the physical venue AND game date.
+  # This file is created only after source and game-level review, not by default.
+  df$surface_turf <- NA_real_
+  if (file.exists(SURFACE_GAME_PATH)) {
+    if (!file.exists(STADIUM_MATCH_PATH))
+      stop("Cannot use verified surfaces with provisional venue IDs")
+    surface <- read_csv(SURFACE_GAME_PATH, show_col_types = FALSE)
+    needed_surface <- c("game_key", "stadium_id", "surface_type", "surface_verified")
+    if (length(setdiff(needed_surface, names(surface))))
+      stop("Final surface table missing required columns")
+    if (anyDuplicated(surface$game_key)) stop("Duplicate keys in game surfaces")
+    surface <- surface %>% transmute(
+      game_key, surface_stadium_id = stadium_id,
+      surface_type = tolower(trimws(as.character(surface_type))),
+      surface_verified = tolower(trimws(as.character(surface_verified))) %in% c("true", "t", "1", "yes"))
+    df <- left_join(df, surface, by = "game_key")
+    invalid <- df$home_flag == 1L &
+      (is.na(df$surface_verified) | !df$surface_verified |
+       is.na(df$surface_type) | !(df$surface_type %in% c("grass", "turf")) |
+       is.na(df$surface_stadium_id) | df$surface_stadium_id != df$venue_id)
+    if (any(invalid)) stop(sum(invalid), " home games have unverified/mismatched playing surfaces")
+    df$surface_turf <- ifelse(df$home_flag == 1L,
+                              as.numeric(df$surface_type == "turf"), 0)
+  }
   if (anyDuplicated(df$game_id)) stop("Duplicate game IDs")
 
   # Audit potential stadium changes / shared coordinates / team-specific IDs.
@@ -181,9 +207,24 @@ base_feature_names <- c("rest_diff", "rest_missing", "log_travel", "travel_missi
 feature_mean <- vapply(train[base_feature_names], mean, numeric(1))
 feature_sd <- vapply(train[base_feature_names], sd, numeric(1))
 feature_sd[!is.finite(feature_sd) | feature_sd == 0] <- 1
-scaled_X <- function(dat) {
+# Surface is added only to attribute-informed M3 variants. It is centered on
+# TRAINING home games and multiplied by home_flag; neutral games have no effect.
+scaled_X <- function(dat, include_surface = FALSE) {
   x <- as.matrix(dat[base_feature_names])
-  sweep(sweep(x, 2L, feature_mean, "-"), 2L, feature_sd, "/")
+  x <- sweep(sweep(x, 2L, feature_mean, "-"), 2L, feature_sd, "/")
+  if (include_surface) {
+    if (!file.exists(SURFACE_GAME_PATH))
+      stop("Model with surface effects requires approved game-level surface file")
+    if (any(is.na(dat$surface_turf[dat$home_flag == 1L])))
+      stop("Surface category unknown for non-neutral game")
+    turf_mean <- mean(train$surface_turf[train$home_flag == 1L])
+    turf_sd <- sd(train$surface_turf[train$home_flag == 1L])
+    if (!is.finite(turf_sd) || turf_sd == 0) stop("No training variation in playing surface")
+    turf <- ifelse(dat$home_flag == 1L,
+                   (dat$surface_turf - turf_mean) / turf_sd, 0)
+    x <- cbind(x, surface_turf = as.numeric(turf))
+  }
+  x
 }
 
 # Only use externally checked physical features. Don't invent attributes or
@@ -202,6 +243,11 @@ prepare_attributes <- function() {
   }
   if (!file.exists(STADIUM_MATCH_PATH)) {
     warning("Unreviewed coordinate venue IDs cannot support an attribute-informed model.")
+    return(NULL)
+  }
+  if (!file.exists(SURFACE_GAME_PATH) ||
+      any(is.na(df$surface_turf[df$home_flag == 1L]))) {
+    warning("Date-aware verified playing surfaces missing. Skipping attribute M3 models.")
     return(NULL)
   }
   needed <- all_venue$venue_id
@@ -229,7 +275,7 @@ venue_train_levels <- sort(unique(train$venue_id[train$home_flag == 1]))
 franchise_levels <- sort(unique(c(train$home_team, train$away_team)))
 S <- length(unique(train$season))
 
-attr_columns <- c("roof_dome", "roof_retractable", "roof_canopy", "turf", "altitude_m")
+attr_columns <- c("roof_dome", "roof_retractable", "roof_canopy", "altitude_m")
 if (!is.null(attr_data)) {
   attr_train <- attr_data[match(venue_train_levels, attr_data$venue_id), ]
   train_attribute_sds <- vapply(attr_train[attr_columns], sd, numeric(1))
@@ -292,7 +338,8 @@ make_stan_data <- function(name, ridge_sd = 2) {
   f_levels <- if (config[["use_franchise"]] == 1) franchise_levels else "dummy"
   n_v <- length(v_levels)
   z <- if (needs_attrs) z_scaled(v_levels) else matrix(0, n_v, 1L)
-  X <- if (config[["use_covariates"]] == 1) scaled_X(train) else
+  X <- if (config[["use_covariates"]] == 1)
+    scaled_X(train, include_surface = needs_attrs) else
     matrix(0, nrow(train), length(base_feature_names))
   first_year <- if (config[["use_time"]] == 1) {
     vapply(v_levels, function(v) as.integer(min(train$season[train$venue_id == v & train$home_flag == 1]) - 2003L), integer(1))
@@ -373,7 +420,9 @@ forecast_mu_draws <- function(fit, stan_input, future, name, n_draws = DRAWS_FOR
       team_projection(future$away_team[i]) + future$home_flag[i] * home_effect
     if (stan_input$use_covariates == 1L) {
       beta <- matrix(post$beta[use, ], nrow = d)
-      pred[, i] <- pred[, i] + drop(beta %*% as.numeric(scaled_X(future[i, ])))
+      pred[, i] <- pred[, i] + drop(beta %*%
+        as.numeric(scaled_X(future[i, ],
+                            include_surface = (stan_input$use_attributes == 1L))))
     }
   }
   list(mu = pred, sigma = post$sigma_y[use])
