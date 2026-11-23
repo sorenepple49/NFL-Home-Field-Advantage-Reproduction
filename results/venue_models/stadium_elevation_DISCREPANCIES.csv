@@ -1,0 +1,6 @@
+"venue_id","stadium","original_m","usgs_m","difference_m","latitude","longitude"
+"DAL00","AT&T Stadium","242.5335228","172.739151001","-69.79","32.747778","-97.092778"
+"KAN00","GEHA Field at Arrowhead Stadium","256.8486826","270.120147705","13.27","39.048889","-94.483889"
+"LAX99","Los Angeles Memorial Coliseum","41.60136912","53.771446228","12.17","34.014167","-118.287778"
+"CAR00","Bank of America Stadium","220.996142","215.722686768","-5.27","35.225833","-80.852778"
+"OAK00","Ring Central Coliseum","0.02536833802","-5.146467686","-5.17","37.751667","-122.200556"

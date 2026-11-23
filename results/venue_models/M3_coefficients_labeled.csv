@@ -1,0 +1,11 @@
+"variable","parameter","mean","lower_95","upper_95","Rhat"
+"Dome roof","gamma[1]",0.111,-0.635,0.86,1
+"Retractable roof","gamma[2]",0.042,-0.677,0.746,1
+"Stadium elevation","gamma[3]",0.303,-0.311,0.925,1
+"Rest differential","beta[1]",0.535,0.129,0.941,1
+"Rest missing","beta[2]",-0.277,-0.701,0.146,1
+"Log travel distance","beta[3]",0.404,-0.195,1.007,1
+"Travel missing","beta[4]",0.108,-0.491,0.692,1
+"Artificial turf","beta[5]",0.571,-0.154,1.299,1
+"Baseline home advantage","alpha0",2.511,1.747,3.299,1
+"Season trend","alpha_trend",-0.003,-0.103,0.098,1

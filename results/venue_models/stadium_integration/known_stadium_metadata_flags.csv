@@ -1,0 +1,9 @@
+stadium_id,review_note
+ATL97,Source marks Mercedes-Benz Stadium outdoors; confirm retractable roof and historical game configuration.
+DAL00,Source marks AT&T Stadium outdoors; confirm retractable roof.
+HOU00,Source marks NRG/Reliant Stadium outdoors; confirm retractable roof.
+IND00,Source marks Lucas Oil Stadium outdoors; confirm retractable roof.
+PHO00,Source marks State Farm Stadium outdoors; confirm retractable roof.
+LAX01,Source calls SoFi a dome; check canopy/enclosed taxonomy for research definition.
+NYC00,"Giants Stadium overlaps MetLife coordinates; match by GAME DATE, not latitude/longitude alone."
+NYC01,"MetLife overlaps Giants Stadium coordinates; match by GAME DATE, not latitude/longitude alone."

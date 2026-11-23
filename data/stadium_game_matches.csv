@@ -1824,7 +1824,7 @@ game_key,stadium_id,stadium_name,match_km,match_status
 2010|2010-12-19|Los Angeles Rams|Kansas City Chiefs,STL00,Edward Jones Dome,0.019,matched
 2010|2010-12-19|Seattle Seahawks|Atlanta Falcons,SEA00,Lumen Field,0.006,matched
 2010|2010-12-19|Cincinnati Bengals|Cleveland Browns,CIN00,Paycor Stadium,0.048,matched
-2010|2010-12-20|Minnesota Vikings|Chicago Bears,MIN98,TCF Bank Stadium,0.000,matched
+2010|2010-12-20|Minnesota Vikings|Chicago Bears,MIN98,TCF Bank Stadium,0.0,matched
 2010|2010-12-23|Pittsburgh Steelers|Carolina Panthers,PIT00,Acrisure Stadium,0.015,matched
 2010|2010-12-25|Arizona Cardinals|Dallas Cowboys,PHO00,State Farm Stadium,0.046,matched
 2010|2010-12-26|Miami Dolphins|Detroit Lions,MIA00,Hard Rock Stadium,0.011,matched

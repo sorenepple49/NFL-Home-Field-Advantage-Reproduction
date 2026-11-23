@@ -1,0 +1,640 @@
+home_team,season,games,distinct_stadiums,unmatched,ambiguous,stadiums
+Arizona Cardinals,2004,8,1,0,0,PHO99
+Arizona Cardinals,2005,7,1,0,0,PHO99
+Arizona Cardinals,2006,8,1,0,0,PHO00
+Arizona Cardinals,2007,8,1,0,0,PHO00
+Arizona Cardinals,2008,10,1,0,0,PHO00
+Arizona Cardinals,2009,9,1,0,0,PHO00
+Arizona Cardinals,2010,8,1,0,0,PHO00
+Arizona Cardinals,2011,8,1,0,0,PHO00
+Arizona Cardinals,2012,8,1,0,0,PHO00
+Arizona Cardinals,2013,8,1,0,0,PHO00
+Arizona Cardinals,2014,8,1,0,0,PHO00
+Arizona Cardinals,2015,9,1,0,0,PHO00
+Arizona Cardinals,2016,8,1,0,0,PHO00
+Arizona Cardinals,2017,8,1,0,0,PHO00
+Arizona Cardinals,2018,8,1,0,0,PHO00
+Arizona Cardinals,2019,8,1,0,0,PHO00
+Arizona Cardinals,2020,8,1,0,0,PHO00
+Arizona Cardinals,2021,8,1,0,0,PHO00
+Arizona Cardinals,2022,8,1,0,0,PHO00
+Arizona Cardinals,2023,8,1,0,0,PHO00
+Atlanta Falcons,2004,9,1,0,0,ATL00
+Atlanta Falcons,2005,8,1,0,0,ATL00
+Atlanta Falcons,2006,8,1,0,0,ATL00
+Atlanta Falcons,2007,8,1,0,0,ATL00
+Atlanta Falcons,2008,8,1,0,0,ATL00
+Atlanta Falcons,2009,8,1,0,0,ATL00
+Atlanta Falcons,2010,9,1,0,0,ATL00
+Atlanta Falcons,2011,8,1,0,0,ATL00
+Atlanta Falcons,2012,10,1,0,0,ATL00
+Atlanta Falcons,2013,8,1,0,0,ATL00
+Atlanta Falcons,2014,7,1,0,0,ATL00
+Atlanta Falcons,2015,8,1,0,0,ATL00
+Atlanta Falcons,2016,10,1,0,0,ATL00
+Atlanta Falcons,2017,8,1,0,0,ATL97
+Atlanta Falcons,2018,8,1,0,0,ATL97
+Atlanta Falcons,2019,8,1,0,0,ATL97
+Atlanta Falcons,2020,8,1,0,0,ATL97
+Atlanta Falcons,2021,7,1,0,0,ATL97
+Atlanta Falcons,2022,9,1,0,0,ATL97
+Atlanta Falcons,2023,8,1,0,0,ATL97
+Baltimore Ravens,2004,8,1,0,0,BAL00
+Baltimore Ravens,2005,8,1,0,0,BAL00
+Baltimore Ravens,2006,9,1,0,0,BAL00
+Baltimore Ravens,2007,8,1,0,0,BAL00
+Baltimore Ravens,2008,8,1,0,0,BAL00
+Baltimore Ravens,2009,8,1,0,0,BAL00
+Baltimore Ravens,2010,8,1,0,0,BAL00
+Baltimore Ravens,2011,9,1,0,0,BAL00
+Baltimore Ravens,2012,9,1,0,0,BAL00
+Baltimore Ravens,2013,8,1,0,0,BAL00
+Baltimore Ravens,2014,8,1,0,0,BAL00
+Baltimore Ravens,2015,8,1,0,0,BAL00
+Baltimore Ravens,2016,8,1,0,0,BAL00
+Baltimore Ravens,2017,8,1,0,0,BAL00
+Baltimore Ravens,2018,9,1,0,0,BAL00
+Baltimore Ravens,2019,9,1,0,0,BAL00
+Baltimore Ravens,2020,8,1,0,0,BAL00
+Baltimore Ravens,2021,9,1,0,0,BAL00
+Baltimore Ravens,2022,8,1,0,0,BAL00
+Baltimore Ravens,2023,11,1,0,0,BAL00
+Buffalo Bills,2004,8,1,0,0,BUF00
+Buffalo Bills,2005,8,1,0,0,BUF00
+Buffalo Bills,2006,8,1,0,0,BUF00
+Buffalo Bills,2007,8,1,0,0,BUF00
+Buffalo Bills,2008,7,1,0,0,BUF00
+Buffalo Bills,2009,7,1,0,0,BUF00
+Buffalo Bills,2010,7,1,0,0,BUF00
+Buffalo Bills,2011,7,1,0,0,BUF00
+Buffalo Bills,2012,7,1,0,0,BUF00
+Buffalo Bills,2013,7,1,0,0,BUF00
+Buffalo Bills,2014,7,1,0,0,BUF00
+Buffalo Bills,2015,8,1,0,0,BUF00
+Buffalo Bills,2016,8,1,0,0,BUF00
+Buffalo Bills,2017,8,1,0,0,BUF00
+Buffalo Bills,2018,8,1,0,0,BUF00
+Buffalo Bills,2019,8,1,0,0,BUF00
+Buffalo Bills,2020,10,1,0,0,BUF00
+Buffalo Bills,2021,10,1,0,0,BUF00
+Buffalo Bills,2022,9,1,0,0,BUF00
+Buffalo Bills,2023,10,1,0,0,BUF00
+Carolina Panthers,2004,8,1,0,0,CAR00
+Carolina Panthers,2005,8,1,0,0,CAR00
+Carolina Panthers,2006,8,1,0,0,CAR00
+Carolina Panthers,2007,8,1,0,0,CAR00
+Carolina Panthers,2008,9,1,0,0,CAR00
+Carolina Panthers,2009,8,1,0,0,CAR00
+Carolina Panthers,2010,8,1,0,0,CAR00
+Carolina Panthers,2011,8,1,0,0,CAR00
+Carolina Panthers,2012,8,1,0,0,CAR00
+Carolina Panthers,2013,9,1,0,0,CAR00
+Carolina Panthers,2014,9,1,0,0,CAR00
+Carolina Panthers,2015,10,1,0,0,CAR00
+Carolina Panthers,2016,8,1,0,0,CAR00
+Carolina Panthers,2017,8,1,0,0,CAR00
+Carolina Panthers,2018,8,1,0,0,CAR00
+Carolina Panthers,2019,8,1,0,0,CAR00
+Carolina Panthers,2020,8,1,0,0,CAR00
+Carolina Panthers,2021,8,1,0,0,CAR00
+Carolina Panthers,2022,9,1,0,0,CAR00
+Carolina Panthers,2023,8,1,0,0,CAR00
+Chicago Bears,2004,8,1,0,0,CHI98
+Chicago Bears,2005,9,1,0,0,CHI98
+Chicago Bears,2006,10,1,0,0,CHI98
+Chicago Bears,2007,8,1,0,0,CHI98
+Chicago Bears,2008,8,1,0,0,CHI98
+Chicago Bears,2009,8,1,0,0,CHI98
+Chicago Bears,2010,10,1,0,0,CHI98
+Chicago Bears,2011,8,1,0,0,CHI98
+Chicago Bears,2012,8,1,0,0,CHI98
+Chicago Bears,2013,8,1,0,0,CHI98
+Chicago Bears,2014,8,1,0,0,CHI98
+Chicago Bears,2015,8,1,0,0,CHI98
+Chicago Bears,2016,8,1,0,0,CHI98
+Chicago Bears,2017,8,1,0,0,CHI98
+Chicago Bears,2018,9,1,0,0,CHI98
+Chicago Bears,2019,8,1,0,0,CHI98
+Chicago Bears,2020,8,1,0,0,CHI98
+Chicago Bears,2021,8,1,0,0,CHI98
+Chicago Bears,2022,9,1,0,0,CHI98
+Chicago Bears,2023,8,1,0,0,CHI98
+Cincinnati Bengals,2004,8,1,0,0,CIN00
+Cincinnati Bengals,2005,9,1,0,0,CIN00
+Cincinnati Bengals,2006,8,1,0,0,CIN00
+Cincinnati Bengals,2007,8,1,0,0,CIN00
+Cincinnati Bengals,2008,8,1,0,0,CIN00
+Cincinnati Bengals,2009,9,1,0,0,CIN00
+Cincinnati Bengals,2010,8,1,0,0,CIN00
+Cincinnati Bengals,2011,8,1,0,0,CIN00
+Cincinnati Bengals,2012,8,1,0,0,CIN00
+Cincinnati Bengals,2013,9,1,0,0,CIN00
+Cincinnati Bengals,2014,8,1,0,0,CIN00
+Cincinnati Bengals,2015,9,1,0,0,CIN00
+Cincinnati Bengals,2016,7,1,0,0,CIN00
+Cincinnati Bengals,2017,8,1,0,0,CIN00
+Cincinnati Bengals,2018,8,1,0,0,CIN00
+Cincinnati Bengals,2019,8,1,0,0,CIN00
+Cincinnati Bengals,2020,8,1,0,0,CIN00
+Cincinnati Bengals,2021,10,1,0,0,CIN00
+Cincinnati Bengals,2022,8,1,0,0,CIN00
+Cincinnati Bengals,2023,9,1,0,0,CIN00
+Cleveland Browns,2004,8,1,0,0,CLE00
+Cleveland Browns,2005,8,1,0,0,CLE00
+Cleveland Browns,2006,8,1,0,0,CLE00
+Cleveland Browns,2007,8,1,0,0,CLE00
+Cleveland Browns,2008,8,1,0,0,CLE00
+Cleveland Browns,2009,8,1,0,0,CLE00
+Cleveland Browns,2010,8,1,0,0,CLE00
+Cleveland Browns,2011,8,1,0,0,CLE00
+Cleveland Browns,2012,8,1,0,0,CLE00
+Cleveland Browns,2013,8,1,0,0,CLE00
+Cleveland Browns,2014,8,1,0,0,CLE00
+Cleveland Browns,2015,8,1,0,0,CLE00
+Cleveland Browns,2016,8,1,0,0,CLE00
+Cleveland Browns,2017,7,1,0,0,CLE00
+Cleveland Browns,2018,8,1,0,0,CLE00
+Cleveland Browns,2019,8,1,0,0,CLE00
+Cleveland Browns,2020,8,1,0,0,CLE00
+Cleveland Browns,2021,9,1,0,0,CLE00
+Cleveland Browns,2022,8,1,0,0,CLE00
+Cleveland Browns,2023,9,1,0,0,CLE00
+Dallas Cowboys,2004,8,1,0,0,DAL99
+Dallas Cowboys,2005,8,1,0,0,DAL99
+Dallas Cowboys,2006,8,1,0,0,DAL99
+Dallas Cowboys,2007,9,1,0,0,DAL99
+Dallas Cowboys,2008,8,1,0,0,DAL99
+Dallas Cowboys,2009,9,1,0,0,DAL00
+Dallas Cowboys,2010,8,1,0,0,DAL00
+Dallas Cowboys,2011,8,1,0,0,DAL00
+Dallas Cowboys,2012,8,1,0,0,DAL00
+Dallas Cowboys,2013,8,1,0,0,DAL00
+Dallas Cowboys,2014,9,1,0,0,DAL00
+Dallas Cowboys,2015,8,1,0,0,DAL00
+Dallas Cowboys,2016,9,1,0,0,DAL00
+Dallas Cowboys,2017,8,1,0,0,DAL00
+Dallas Cowboys,2018,9,1,0,0,DAL00
+Dallas Cowboys,2019,8,1,0,0,DAL00
+Dallas Cowboys,2020,8,1,0,0,DAL00
+Dallas Cowboys,2021,9,1,0,0,DAL00
+Dallas Cowboys,2022,9,1,0,0,DAL00
+Dallas Cowboys,2023,9,1,0,0,DAL00
+Denver Broncos,2004,8,1,0,0,DEN00
+Denver Broncos,2005,10,1,0,0,DEN00
+Denver Broncos,2006,8,1,0,0,DEN00
+Denver Broncos,2007,8,1,0,0,DEN00
+Denver Broncos,2008,8,1,0,0,DEN00
+Denver Broncos,2009,8,1,0,0,DEN00
+Denver Broncos,2010,8,1,0,0,DEN00
+Denver Broncos,2011,9,1,0,0,DEN00
+Denver Broncos,2012,9,1,0,0,DEN00
+Denver Broncos,2013,10,1,0,0,DEN00
+Denver Broncos,2014,9,1,0,0,DEN00
+Denver Broncos,2015,10,1,0,0,DEN00
+Denver Broncos,2016,8,1,0,0,DEN00
+Denver Broncos,2017,8,1,0,0,DEN00
+Denver Broncos,2018,8,1,0,0,DEN00
+Denver Broncos,2019,8,1,0,0,DEN00
+Denver Broncos,2020,8,1,0,0,DEN00
+Denver Broncos,2021,9,1,0,0,DEN00
+Denver Broncos,2022,8,1,0,0,DEN00
+Denver Broncos,2023,9,1,0,0,DEN00
+Detroit Lions,2004,8,1,0,0,DET00
+Detroit Lions,2005,8,1,0,0,DET00
+Detroit Lions,2006,8,1,0,0,DET00
+Detroit Lions,2007,8,1,0,0,DET00
+Detroit Lions,2008,8,1,0,0,DET00
+Detroit Lions,2009,8,1,0,0,DET00
+Detroit Lions,2010,8,1,0,0,DET00
+Detroit Lions,2011,8,1,0,0,DET00
+Detroit Lions,2012,8,1,0,0,DET00
+Detroit Lions,2013,8,1,0,0,DET00
+Detroit Lions,2014,8,1,0,0,DET00
+Detroit Lions,2015,8,1,0,0,DET00
+Detroit Lions,2016,8,1,0,0,DET00
+Detroit Lions,2017,8,1,0,0,DET00
+Detroit Lions,2018,8,1,0,0,DET00
+Detroit Lions,2019,8,1,0,0,DET00
+Detroit Lions,2020,8,1,0,0,DET00
+Detroit Lions,2021,8,1,0,0,DET00
+Detroit Lions,2022,9,1,0,0,DET00
+Detroit Lions,2023,10,1,0,0,DET00
+Green Bay Packers,2004,9,1,0,0,GNB00
+Green Bay Packers,2005,8,1,0,0,GNB00
+Green Bay Packers,2006,8,1,0,0,GNB00
+Green Bay Packers,2007,10,1,0,0,GNB00
+Green Bay Packers,2008,8,1,0,0,GNB00
+Green Bay Packers,2009,8,1,0,0,GNB00
+Green Bay Packers,2010,8,1,0,0,GNB00
+Green Bay Packers,2011,9,1,0,0,GNB00
+Green Bay Packers,2012,9,1,0,0,GNB00
+Green Bay Packers,2013,9,1,0,0,GNB00
+Green Bay Packers,2014,9,1,0,0,GNB00
+Green Bay Packers,2015,8,1,0,0,GNB00
+Green Bay Packers,2016,9,1,0,0,GNB00
+Green Bay Packers,2017,8,1,0,0,GNB00
+Green Bay Packers,2018,8,1,0,0,GNB00
+Green Bay Packers,2019,9,1,0,0,GNB00
+Green Bay Packers,2020,10,1,0,0,GNB00
+Green Bay Packers,2021,9,1,0,0,GNB00
+Green Bay Packers,2022,8,1,0,0,GNB00
+Green Bay Packers,2023,8,1,0,0,GNB00
+Houston Texans,2004,8,1,0,0,HOU00
+Houston Texans,2005,8,1,0,0,HOU00
+Houston Texans,2006,8,1,0,0,HOU00
+Houston Texans,2007,8,1,0,0,HOU00
+Houston Texans,2008,8,1,0,0,HOU00
+Houston Texans,2009,8,1,0,0,HOU00
+Houston Texans,2010,8,1,0,0,HOU00
+Houston Texans,2011,9,1,0,0,HOU00
+Houston Texans,2012,9,1,0,0,HOU00
+Houston Texans,2013,8,1,0,0,HOU00
+Houston Texans,2014,8,1,0,0,HOU00
+Houston Texans,2015,9,1,0,0,HOU00
+Houston Texans,2016,9,1,0,0,HOU00
+Houston Texans,2017,8,1,0,0,HOU00
+Houston Texans,2018,9,1,0,0,HOU00
+Houston Texans,2019,9,1,0,0,HOU00
+Houston Texans,2020,8,1,0,0,HOU00
+Houston Texans,2021,9,1,0,0,HOU00
+Houston Texans,2022,8,1,0,0,HOU00
+Houston Texans,2023,10,1,0,0,HOU00
+Indianapolis Colts,2004,9,1,0,0,IND99
+Indianapolis Colts,2005,9,1,0,0,IND99
+Indianapolis Colts,2006,10,1,0,0,IND99
+Indianapolis Colts,2007,9,1,0,0,IND99
+Indianapolis Colts,2008,8,1,0,0,IND00
+Indianapolis Colts,2009,10,1,0,0,IND00
+Indianapolis Colts,2010,9,1,0,0,IND00
+Indianapolis Colts,2011,8,1,0,0,IND00
+Indianapolis Colts,2012,8,1,0,0,IND00
+Indianapolis Colts,2013,9,1,0,0,IND00
+Indianapolis Colts,2014,9,1,0,0,IND00
+Indianapolis Colts,2015,8,1,0,0,IND00
+Indianapolis Colts,2016,8,1,0,0,IND00
+Indianapolis Colts,2017,8,1,0,0,IND00
+Indianapolis Colts,2018,8,1,0,0,IND00
+Indianapolis Colts,2019,8,1,0,0,IND00
+Indianapolis Colts,2020,8,1,0,0,IND00
+Indianapolis Colts,2021,9,1,0,0,IND00
+Indianapolis Colts,2022,8,1,0,0,IND00
+Indianapolis Colts,2023,9,1,0,0,IND00
+Jacksonville Jaguars,2004,8,1,0,0,JAX00
+Jacksonville Jaguars,2005,8,1,0,0,JAX00
+Jacksonville Jaguars,2006,8,1,0,0,JAX00
+Jacksonville Jaguars,2007,8,1,0,0,JAX00
+Jacksonville Jaguars,2008,8,1,0,0,JAX00
+Jacksonville Jaguars,2009,8,1,0,0,JAX00
+Jacksonville Jaguars,2010,8,1,0,0,JAX00
+Jacksonville Jaguars,2011,8,1,0,0,JAX00
+Jacksonville Jaguars,2012,8,1,0,0,JAX00
+Jacksonville Jaguars,2013,7,1,0,0,JAX00
+Jacksonville Jaguars,2014,7,1,0,0,JAX00
+Jacksonville Jaguars,2015,7,1,0,0,JAX00
+Jacksonville Jaguars,2016,7,1,0,0,JAX00
+Jacksonville Jaguars,2017,8,1,0,0,JAX00
+Jacksonville Jaguars,2018,7,1,0,0,JAX00
+Jacksonville Jaguars,2019,7,1,0,0,JAX00
+Jacksonville Jaguars,2020,8,1,0,0,JAX00
+Jacksonville Jaguars,2021,8,1,0,0,JAX00
+Jacksonville Jaguars,2022,8,1,0,0,JAX00
+Jacksonville Jaguars,2023,8,1,0,0,JAX00
+Kansas City Chiefs,2004,8,1,0,0,KAN00
+Kansas City Chiefs,2005,8,1,0,0,KAN00
+Kansas City Chiefs,2006,8,1,0,0,KAN00
+Kansas City Chiefs,2007,8,1,0,0,KAN00
+Kansas City Chiefs,2008,8,1,0,0,KAN00
+Kansas City Chiefs,2009,8,1,0,0,KAN00
+Kansas City Chiefs,2010,9,1,0,0,KAN00
+Kansas City Chiefs,2011,8,1,0,0,KAN00
+Kansas City Chiefs,2012,8,1,0,0,KAN00
+Kansas City Chiefs,2013,8,1,0,0,KAN00
+Kansas City Chiefs,2014,8,1,0,0,KAN00
+Kansas City Chiefs,2015,7,1,0,0,KAN00
+Kansas City Chiefs,2016,9,1,0,0,KAN00
+Kansas City Chiefs,2017,9,1,0,0,KAN00
+Kansas City Chiefs,2018,10,1,0,0,KAN00
+Kansas City Chiefs,2019,10,1,0,0,KAN00
+Kansas City Chiefs,2020,10,1,0,0,KAN00
+Kansas City Chiefs,2021,12,1,0,0,KAN00
+Kansas City Chiefs,2022,10,1,0,0,KAN00
+Kansas City Chiefs,2023,9,1,0,0,KAN00
+Las Vegas Raiders,2004,8,1,0,0,OAK00
+Las Vegas Raiders,2005,8,1,0,0,OAK00
+Las Vegas Raiders,2006,8,1,0,0,OAK00
+Las Vegas Raiders,2007,8,1,0,0,OAK00
+Las Vegas Raiders,2008,8,1,0,0,OAK00
+Las Vegas Raiders,2009,8,1,0,0,OAK00
+Las Vegas Raiders,2010,8,1,0,0,OAK00
+Las Vegas Raiders,2011,8,1,0,0,OAK00
+Las Vegas Raiders,2012,8,1,0,0,OAK00
+Las Vegas Raiders,2013,8,1,0,0,OAK00
+Las Vegas Raiders,2014,7,1,0,0,OAK00
+Las Vegas Raiders,2015,8,1,0,0,OAK00
+Las Vegas Raiders,2016,7,1,0,0,OAK00
+Las Vegas Raiders,2017,7,1,0,0,OAK00
+Las Vegas Raiders,2018,7,1,0,0,OAK00
+Las Vegas Raiders,2019,7,1,0,0,OAK00
+Las Vegas Raiders,2020,8,1,0,0,VEG00
+Las Vegas Raiders,2021,9,1,0,0,VEG00
+Las Vegas Raiders,2022,8,1,0,0,VEG00
+Las Vegas Raiders,2023,9,1,0,0,VEG00
+Los Angeles Chargers,2004,9,1,0,0,SDG00
+Los Angeles Chargers,2005,8,1,0,0,SDG00
+Los Angeles Chargers,2006,9,1,0,0,SDG00
+Los Angeles Chargers,2007,9,1,0,0,SDG00
+Los Angeles Chargers,2008,9,1,0,0,SDG00
+Los Angeles Chargers,2009,9,1,0,0,SDG00
+Los Angeles Chargers,2010,8,1,0,0,SDG00
+Los Angeles Chargers,2011,8,1,0,0,SDG00
+Los Angeles Chargers,2012,8,1,0,0,SDG00
+Los Angeles Chargers,2013,8,1,0,0,SDG00
+Los Angeles Chargers,2014,8,1,0,0,SDG00
+Los Angeles Chargers,2015,8,1,0,0,SDG00
+Los Angeles Chargers,2016,8,1,0,0,SDG00
+Los Angeles Chargers,2017,8,1,0,0,LAX97
+Los Angeles Chargers,2018,7,1,0,0,LAX97
+Los Angeles Chargers,2019,7,1,0,0,LAX97
+Los Angeles Chargers,2020,8,1,0,0,LAX01
+Los Angeles Chargers,2021,9,1,0,0,LAX01
+Los Angeles Chargers,2022,8,1,0,0,LAX01
+Los Angeles Chargers,2023,9,1,0,0,LAX01
+Los Angeles Rams,2004,8,1,0,0,STL00
+Los Angeles Rams,2005,8,1,0,0,STL00
+Los Angeles Rams,2006,8,1,0,0,STL00
+Los Angeles Rams,2007,8,1,0,0,STL00
+Los Angeles Rams,2008,8,1,0,0,STL00
+Los Angeles Rams,2009,8,1,0,0,STL00
+Los Angeles Rams,2010,8,1,0,0,STL00
+Los Angeles Rams,2011,8,1,0,0,STL00
+Los Angeles Rams,2012,7,1,0,0,STL00
+Los Angeles Rams,2013,8,1,0,0,STL00
+Los Angeles Rams,2014,8,1,0,0,STL00
+Los Angeles Rams,2015,8,1,0,0,STL00
+Los Angeles Rams,2016,7,1,0,0,LAX99
+Los Angeles Rams,2017,8,1,0,0,LAX99
+Los Angeles Rams,2018,9,1,0,0,LAX99
+Los Angeles Rams,2019,7,1,0,0,LAX99
+Los Angeles Rams,2020,8,1,0,0,LAX01
+Los Angeles Rams,2021,10,1,0,0,LAX01
+Los Angeles Rams,2022,9,1,0,0,LAX01
+Los Angeles Rams,2023,8,1,0,0,LAX01
+Miami Dolphins,2004,8,1,0,0,MIA00
+Miami Dolphins,2005,8,1,0,0,MIA00
+Miami Dolphins,2006,8,1,0,0,MIA00
+Miami Dolphins,2007,7,1,0,0,MIA00
+Miami Dolphins,2008,9,1,0,0,MIA00
+Miami Dolphins,2009,8,1,0,0,MIA00
+Miami Dolphins,2010,8,1,0,0,MIA00
+Miami Dolphins,2011,8,1,0,0,MIA00
+Miami Dolphins,2012,8,1,0,0,MIA00
+Miami Dolphins,2013,8,1,0,0,MIA00
+Miami Dolphins,2014,8,1,0,0,MIA00
+Miami Dolphins,2015,7,1,0,0,MIA00
+Miami Dolphins,2016,8,1,0,0,MIA00
+Miami Dolphins,2017,7,1,0,0,MIA00
+Miami Dolphins,2018,8,1,0,0,MIA00
+Miami Dolphins,2019,8,1,0,0,MIA00
+Miami Dolphins,2020,8,1,0,0,MIA00
+Miami Dolphins,2021,9,1,0,0,MIA00
+Miami Dolphins,2022,8,1,0,0,MIA00
+Miami Dolphins,2023,9,1,0,0,MIA00
+Minnesota Vikings,2004,8,1,0,0,MIN00
+Minnesota Vikings,2005,8,1,0,0,MIN00
+Minnesota Vikings,2006,8,1,0,0,MIN00
+Minnesota Vikings,2007,8,1,0,0,MIN00
+Minnesota Vikings,2008,9,1,0,0,MIN00
+Minnesota Vikings,2009,9,1,0,0,MIN00
+Minnesota Vikings,2010,7,2,0,0,MIN00;MIN98
+Minnesota Vikings,2011,8,1,0,0,MIN00
+Minnesota Vikings,2012,8,1,0,0,MIN00
+Minnesota Vikings,2013,7,1,0,0,MIN00
+Minnesota Vikings,2014,8,1,0,0,MIN98
+Minnesota Vikings,2015,9,1,0,0,MIN98
+Minnesota Vikings,2016,8,1,0,0,MIN01
+Minnesota Vikings,2017,9,1,0,0,MIN01
+Minnesota Vikings,2018,8,1,0,0,MIN01
+Minnesota Vikings,2019,8,1,0,0,MIN01
+Minnesota Vikings,2020,8,1,0,0,MIN01
+Minnesota Vikings,2021,8,1,0,0,MIN01
+Minnesota Vikings,2022,10,1,0,0,MIN01
+Minnesota Vikings,2023,8,1,0,0,MIN01
+New England Patriots,2004,9,1,0,0,BOS00
+New England Patriots,2005,9,1,0,0,BOS00
+New England Patriots,2006,9,1,0,0,BOS00
+New England Patriots,2007,10,1,0,0,BOS00
+New England Patriots,2008,8,1,0,0,BOS00
+New England Patriots,2009,9,1,0,0,BOS00
+New England Patriots,2010,9,1,0,0,BOS00
+New England Patriots,2011,10,1,0,0,BOS00
+New England Patriots,2012,10,1,0,0,BOS00
+New England Patriots,2013,9,1,0,0,BOS00
+New England Patriots,2014,10,1,0,0,BOS00
+New England Patriots,2015,9,1,0,0,BOS00
+New England Patriots,2016,10,1,0,0,BOS00
+New England Patriots,2017,10,1,0,0,BOS00
+New England Patriots,2018,9,1,0,0,BOS00
+New England Patriots,2019,9,1,0,0,BOS00
+New England Patriots,2020,8,1,0,0,BOS00
+New England Patriots,2021,9,1,0,0,BOS00
+New England Patriots,2022,8,1,0,0,BOS00
+New England Patriots,2023,8,1,0,0,BOS00
+New Orleans Saints,2004,8,1,0,0,NOR00
+New Orleans Saints,2006,9,1,0,0,NOR00
+New Orleans Saints,2007,8,1,0,0,NOR00
+New Orleans Saints,2008,7,1,0,0,NOR00
+New Orleans Saints,2009,10,1,0,0,NOR00
+New Orleans Saints,2010,8,1,0,0,NOR00
+New Orleans Saints,2011,9,1,0,0,NOR00
+New Orleans Saints,2012,8,1,0,0,NOR00
+New Orleans Saints,2013,8,1,0,0,NOR00
+New Orleans Saints,2014,8,1,0,0,NOR00
+New Orleans Saints,2015,8,1,0,0,NOR00
+New Orleans Saints,2016,8,1,0,0,NOR00
+New Orleans Saints,2017,9,1,0,0,NOR00
+New Orleans Saints,2018,10,1,0,0,NOR00
+New Orleans Saints,2019,9,1,0,0,NOR00
+New Orleans Saints,2020,10,1,0,0,NOR00
+New Orleans Saints,2021,7,1,0,0,NOR00
+New Orleans Saints,2022,8,1,0,0,NOR00
+New Orleans Saints,2023,8,1,0,0,NOR00
+New York Giants,2004,8,1,0,0,NYC00
+New York Giants,2005,9,1,0,0,NYC00
+New York Giants,2006,8,1,0,0,NYC00
+New York Giants,2007,8,1,0,0,NYC00
+New York Giants,2008,9,1,0,0,NYC00
+New York Giants,2009,8,1,0,0,NYC00
+New York Giants,2010,8,1,0,0,NYC01
+New York Giants,2011,9,1,0,0,NYC01
+New York Giants,2012,8,1,0,0,NYC01
+New York Giants,2013,8,1,0,0,NYC01
+New York Giants,2014,8,1,0,0,NYC01
+New York Giants,2015,8,1,0,0,NYC01
+New York Giants,2016,8,1,0,0,NYC01
+New York Giants,2017,8,1,0,0,NYC01
+New York Giants,2018,8,1,0,0,NYC01
+New York Giants,2019,8,1,0,0,NYC01
+New York Giants,2020,8,1,0,0,NYC01
+New York Giants,2021,8,1,0,0,NYC01
+New York Giants,2022,9,1,0,0,NYC01
+New York Giants,2023,8,1,0,0,NYC01
+New York Jets,2004,8,1,0,0,NYC00
+New York Jets,2005,8,1,0,0,NYC00
+New York Jets,2006,8,1,0,0,NYC00
+New York Jets,2007,8,1,0,0,NYC00
+New York Jets,2008,8,1,0,0,NYC00
+New York Jets,2009,8,1,0,0,NYC00
+New York Jets,2010,8,1,0,0,NYC01
+New York Jets,2011,8,1,0,0,NYC01
+New York Jets,2012,8,1,0,0,NYC01
+New York Jets,2013,8,1,0,0,NYC01
+New York Jets,2014,8,1,0,0,NYC01
+New York Jets,2015,8,1,0,0,NYC01
+New York Jets,2016,8,1,0,0,NYC01
+New York Jets,2017,8,1,0,0,NYC01
+New York Jets,2018,8,1,0,0,NYC01
+New York Jets,2019,8,1,0,0,NYC01
+New York Jets,2020,8,1,0,0,NYC01
+New York Jets,2021,9,1,0,0,NYC01
+New York Jets,2022,8,1,0,0,NYC01
+New York Jets,2023,9,1,0,0,NYC01
+Philadelphia Eagles,2004,10,1,0,0,PHI00
+Philadelphia Eagles,2005,8,1,0,0,PHI00
+Philadelphia Eagles,2006,9,1,0,0,PHI00
+Philadelphia Eagles,2007,8,1,0,0,PHI00
+Philadelphia Eagles,2008,8,1,0,0,PHI00
+Philadelphia Eagles,2009,8,1,0,0,PHI00
+Philadelphia Eagles,2010,9,1,0,0,PHI00
+Philadelphia Eagles,2011,8,1,0,0,PHI00
+Philadelphia Eagles,2012,8,1,0,0,PHI00
+Philadelphia Eagles,2013,9,1,0,0,PHI00
+Philadelphia Eagles,2014,8,1,0,0,PHI00
+Philadelphia Eagles,2015,8,1,0,0,PHI00
+Philadelphia Eagles,2016,8,1,0,0,PHI00
+Philadelphia Eagles,2017,10,1,0,0,PHI00
+Philadelphia Eagles,2018,8,1,0,0,PHI00
+Philadelphia Eagles,2019,9,1,0,0,PHI00
+Philadelphia Eagles,2020,8,1,0,0,PHI00
+Philadelphia Eagles,2021,8,1,0,0,PHI00
+Philadelphia Eagles,2022,11,1,0,0,PHI00
+Philadelphia Eagles,2023,8,1,0,0,PHI00
+Pittsburgh Steelers,2004,10,1,0,0,PIT00
+Pittsburgh Steelers,2005,8,1,0,0,PIT00
+Pittsburgh Steelers,2006,8,1,0,0,PIT00
+Pittsburgh Steelers,2007,9,1,0,0,PIT00
+Pittsburgh Steelers,2008,10,1,0,0,PIT00
+Pittsburgh Steelers,2009,8,1,0,0,PIT00
+Pittsburgh Steelers,2010,10,1,0,0,PIT00
+Pittsburgh Steelers,2011,8,1,0,0,PIT00
+Pittsburgh Steelers,2012,8,1,0,0,PIT00
+Pittsburgh Steelers,2013,8,1,0,0,PIT00
+Pittsburgh Steelers,2014,9,1,0,0,PIT00
+Pittsburgh Steelers,2015,8,1,0,0,PIT00
+Pittsburgh Steelers,2016,9,1,0,0,PIT00
+Pittsburgh Steelers,2017,9,1,0,0,PIT00
+Pittsburgh Steelers,2018,8,1,0,0,PIT00
+Pittsburgh Steelers,2019,8,1,0,0,PIT00
+Pittsburgh Steelers,2020,9,1,0,0,PIT00
+Pittsburgh Steelers,2021,9,1,0,0,PIT00
+Pittsburgh Steelers,2022,8,1,0,0,PIT00
+Pittsburgh Steelers,2023,9,1,0,0,PIT00
+San Francisco 49ers,2004,8,1,0,0,SFO00
+San Francisco 49ers,2005,8,1,0,0,SFO00
+San Francisco 49ers,2006,8,1,0,0,SFO00
+San Francisco 49ers,2007,8,1,0,0,SFO00
+San Francisco 49ers,2008,8,1,0,0,SFO00
+San Francisco 49ers,2009,8,1,0,0,SFO00
+San Francisco 49ers,2010,7,1,0,0,SFO00
+San Francisco 49ers,2011,10,1,0,0,SFO00
+San Francisco 49ers,2012,9,1,0,0,SFO00
+San Francisco 49ers,2013,8,1,0,0,SFO00
+San Francisco 49ers,2014,8,1,0,0,SFO01
+San Francisco 49ers,2015,8,1,0,0,SFO01
+San Francisco 49ers,2016,8,1,0,0,SFO01
+San Francisco 49ers,2017,8,1,0,0,SFO01
+San Francisco 49ers,2018,8,1,0,0,SFO01
+San Francisco 49ers,2019,10,1,0,0,SFO01
+San Francisco 49ers,2020,5,1,0,0,SFO01
+San Francisco 49ers,2021,8,1,0,0,SFO01
+San Francisco 49ers,2022,11,1,0,0,SFO01
+San Francisco 49ers,2023,10,1,0,0,SFO01
+Seattle Seahawks,2004,9,1,0,0,SEA00
+Seattle Seahawks,2005,10,1,0,0,SEA00
+Seattle Seahawks,2006,9,1,0,0,SEA00
+Seattle Seahawks,2007,9,1,0,0,SEA00
+Seattle Seahawks,2008,8,1,0,0,SEA00
+Seattle Seahawks,2009,8,1,0,0,SEA00
+Seattle Seahawks,2010,9,1,0,0,SEA00
+Seattle Seahawks,2011,8,1,0,0,SEA00
+Seattle Seahawks,2012,8,1,0,0,SEA00
+Seattle Seahawks,2013,10,1,0,0,SEA00
+Seattle Seahawks,2014,10,1,0,0,SEA00
+Seattle Seahawks,2015,8,1,0,0,SEA00
+Seattle Seahawks,2016,9,1,0,0,SEA00
+Seattle Seahawks,2017,8,1,0,0,SEA00
+Seattle Seahawks,2018,8,1,0,0,SEA00
+Seattle Seahawks,2019,8,1,0,0,SEA00
+Seattle Seahawks,2020,9,1,0,0,SEA00
+Seattle Seahawks,2021,8,1,0,0,SEA00
+Seattle Seahawks,2022,9,1,0,0,SEA00
+Seattle Seahawks,2023,8,1,0,0,SEA00
+Tampa Bay Buccaneers,2004,8,1,0,0,TAM00
+Tampa Bay Buccaneers,2005,9,1,0,0,TAM00
+Tampa Bay Buccaneers,2006,8,1,0,0,TAM00
+Tampa Bay Buccaneers,2007,9,1,0,0,TAM00
+Tampa Bay Buccaneers,2008,8,1,0,0,TAM00
+Tampa Bay Buccaneers,2009,7,1,0,0,TAM00
+Tampa Bay Buccaneers,2010,8,1,0,0,TAM00
+Tampa Bay Buccaneers,2011,7,1,0,0,TAM00
+Tampa Bay Buccaneers,2012,8,1,0,0,TAM00
+Tampa Bay Buccaneers,2013,8,1,0,0,TAM00
+Tampa Bay Buccaneers,2014,8,1,0,0,TAM00
+Tampa Bay Buccaneers,2015,8,1,0,0,TAM00
+Tampa Bay Buccaneers,2016,8,1,0,0,TAM00
+Tampa Bay Buccaneers,2017,8,1,0,0,TAM00
+Tampa Bay Buccaneers,2018,8,1,0,0,TAM00
+Tampa Bay Buccaneers,2019,7,1,0,0,TAM00
+Tampa Bay Buccaneers,2020,8,1,0,0,TAM00
+Tampa Bay Buccaneers,2021,10,1,0,0,TAM00
+Tampa Bay Buccaneers,2022,9,1,0,0,TAM00
+Tampa Bay Buccaneers,2023,9,1,0,0,TAM00
+Tennessee Titans,2004,8,1,0,0,NAS00
+Tennessee Titans,2005,8,1,0,0,NAS00
+Tennessee Titans,2006,8,1,0,0,NAS00
+Tennessee Titans,2007,8,1,0,0,NAS00
+Tennessee Titans,2008,9,1,0,0,NAS00
+Tennessee Titans,2009,8,1,0,0,NAS00
+Tennessee Titans,2010,8,1,0,0,NAS00
+Tennessee Titans,2011,8,1,0,0,NAS00
+Tennessee Titans,2012,8,1,0,0,NAS00
+Tennessee Titans,2013,8,1,0,0,NAS00
+Tennessee Titans,2014,8,1,0,0,NAS00
+Tennessee Titans,2015,8,1,0,0,NAS00
+Tennessee Titans,2016,8,1,0,0,NAS00
+Tennessee Titans,2017,8,1,0,0,NAS00
+Tennessee Titans,2018,8,1,0,0,NAS00
+Tennessee Titans,2019,8,1,0,0,NAS00
+Tennessee Titans,2020,9,1,0,0,NAS00
+Tennessee Titans,2021,10,1,0,0,NAS00
+Tennessee Titans,2022,8,1,0,0,NAS00
+Tennessee Titans,2023,8,1,0,0,NAS00
+Washington Commanders,2004,8,1,0,0,WAS00
+Washington Commanders,2005,8,1,0,0,WAS00
+Washington Commanders,2006,8,1,0,0,WAS00
+Washington Commanders,2007,8,1,0,0,WAS00
+Washington Commanders,2008,8,1,0,0,WAS00
+Washington Commanders,2009,8,1,0,0,WAS00
+Washington Commanders,2010,8,1,0,0,WAS00
+Washington Commanders,2011,8,1,0,0,WAS00
+Washington Commanders,2012,9,1,0,0,WAS00
+Washington Commanders,2013,8,1,0,0,WAS00
+Washington Commanders,2014,8,1,0,0,WAS00
+Washington Commanders,2015,9,1,0,0,WAS00
+Washington Commanders,2016,8,1,0,0,WAS00
+Washington Commanders,2017,8,1,0,0,WAS00
+Washington Commanders,2018,8,1,0,0,WAS00
+Washington Commanders,2019,8,1,0,0,WAS00
+Washington Commanders,2020,9,1,0,0,WAS00
+Washington Commanders,2021,8,1,0,0,WAS00
+Washington Commanders,2022,9,1,0,0,WAS00
+Washington Commanders,2023,8,1,0,0,WAS00
